@@ -1,5 +1,5 @@
 ## Terribly Tiny Tales -- assignment
-**Given Task** 
+## Given Task
 Develop a frontend in Reactjs or Nextjs, which does the following:
 On first load, only has a Submit button<br>
 On clicking on Submit, it will fetch the contents of https://www.terriblytinytales.com/test.txt<br>
@@ -7,7 +7,7 @@ Parse the content and find the frequency of occurrence of each word (some words 
 Then on the frontend, plot a histogram of the 20 most occurring words.<br>
 Also build an "Export" button, which when clicked will download a CSV file of the histogram data.<br>
 
-X-axis = top 20 words with highest occurrence Y-axis = how many times they occurred in the file 
+**X-axis = top 20 words with highest occurrence Y-axis = how many times they occurred in the file** 
 
 ### MyApproch
 Here I have used different Compnent to make this project . They are as follows : <br>
