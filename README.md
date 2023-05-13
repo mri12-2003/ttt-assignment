@@ -1,5 +1,5 @@
 ## Terribly Tiny Tales -- assignment
-
+**Given Task** 
 Develop a frontend in Reactjs or Nextjs, which does the following:
 On first load, only has a Submit button<br>
 On clicking on Submit, it will fetch the contents of https://www.terriblytinytales.com/test.txt<br>
@@ -9,8 +9,8 @@ Also build an "Export" button, which when clicked will download a CSV file of th
 
 X-axis = top 20 words with highest occurrence Y-axis = how many times they occurred in the file 
 
-Here I have used different Compnent to make this project . They are as follows :
-
+### MyApproch
+Here I have used different Compnent to make this project . They are as follows : <br>
 1)App.js <br>
 2)index. <br>
 3)Page.js <br> 
