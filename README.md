@@ -39,7 +39,11 @@ Using the libaries **recharts**, a **Graph (histogram)** is which represent the 
 In this HomeComponent page, **CSVLink** is also used which is insalled and imported from the react libaries "react-csv",  which helps to download the data of most repetitive words in a **CSV format** . and other buttons beside Download options which navigates to previous page (i.e pageComponent) if users wish to.<br>
 The logo in previous buttons is imported from **react-icons** libraries.
 
-Thankyou!!
+
+### This project is deployed in Netlify .
+**Link for the deployed project in netlify is --- https://ttt-assignment1.netlify.app**
+
+**Thankyou!!**
  
 
 
