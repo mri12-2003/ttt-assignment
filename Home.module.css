@@ -53,3 +53,27 @@ h2 {
   background-color: #fff;
   color: black;
 }
+
+/* ***************************media query ****** */
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 14px;
+  }
+
+  .prv {
+    position: absolute;
+    top: 20px;
+    /* margin-right: 2px; */
+    padding: 5px 8px;
+    right: 13rem;
+    height: 30px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 5px 10px;
+
+    top: 20px;
+    right: 18px;
+  }
+}
