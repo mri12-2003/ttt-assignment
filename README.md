@@ -40,7 +40,7 @@ In this HomeComponent page, **CSVLink** is also used which is insalled and impor
 The logo in previous buttons is imported from **react-icons** libraries.
 
 
-### This project is deployed in Netlify .
+### This project is deployed in Netlify using the build file cretaed in the project .
 **Link for the deployed project in netlify is --- https://ttt-assignment1.netlify.app**
 
 **Thankyou!!**
