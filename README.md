@@ -10,13 +10,13 @@ Also build an "Export" button, which when clicked will download a CSV file of th
 **X-axis = top 20 words with highest occurrence Y-axis = how many times they occurred in the file** 
 
 ### MyApproch
-Here I have used different Compnent to make this project . They are as follows : <br>
+Here I have used different Component to make this project . They are as follows : <br>
 1)App.js <br>
 2)index. <br>
 3)Page.js <br> 
 4)Home.js<br>
 
-and additionals files are created for adding **CSS** to the specific componet.
+and additionals files are created for adding **CSS** to the specific component.
 
 Following are the additionals libraries installed in this project :<br>
 1)react-chartjs-2, <br>
@@ -29,11 +29,11 @@ Following are the additionals libraries installed in this project :<br>
 In index page App.js Component is been rendered. <br>
 In App.js component, React-router-dom is used so that a single page application can be created when we change from one page to other using submit button in Page Component and previous button in homeComponent .<br>
 
-In Page.js Component, It consists of simple and short introductory of the page with a **Submit** button to go next page i.e **HomeComponent** .
-Once The button is clicked it takes to other page : 
+In Page.js Component, It consists of simple and short introductory of the page with a **Submit** button to go next page i.e **HomeComponent** where the graph is plotted.<br>
+Once The submit button is clicked it takes to other page : 
 
-In HomeComponent, the logic of fetching API is written in a function which is called in **UseEffect Hooks** and also other hook **useState hook** is used there to set the actual data which is retrieve from given API,  on our page which was intiallized as an empty array.
-Also here int he function itself the logic to count top 20 repeating character using javascript slice method is implemented . <br>
+In HomeComponent, the logic of fetching API is written in a function which is called in **UseEffect Hook** and also other hook **useState hook** is used there to set the actual data which is retrieve from given API,  on our page which was intiallized as an empty array.
+Also here in the function itself the logic to count top 20 repeating character using javascript slice method is implemented . <br>
 Using Conditional method, the following step is taken, If the count is 0 of any word make it 1 and else increase the count by 1.<br>
 Using the libaries **recharts**, a **Graph (histogram)** is which represent the data in graph format, where the letters is present in **X-axis** and count of the letters in **Y-axis**.<br>
 In this HomeComponent page, **CSVLink** is also used which is insalled and imported from the react libaries "react-csv",  which helps to download the data of most repetitive words in a **CSV format** . and other buttons beside Download options which navigates to previous page (i.e pageComponent) if users wish to.<br>
